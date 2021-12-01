@@ -13,8 +13,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Application Page url
 
-
-
+[Live demo](https://phelian23.github.io/math-magician/)
 
 ## Getting Started
 
