@@ -1,13 +1,22 @@
 import './App.css';
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Calculator from './components/calculator';
+import Navbar from './components/navbar';
+import Homepage from './components/homepage';
+import Quotes from './components/quotes';
+import Footer from './components/footer';
 
-// eslint-disable-next-line react/prefer-stateless-function
-class App extends React.Component {
-  render() {
-    return (
-      <Calculator />
-    );
-  }
-}
+const App = () => (
+  <div>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Homepage />} />
+      <Route path="/calculator" element={<Calculator />} />
+      <Route path="/quotes" element={<Quotes />} />
+    </Routes>
+    <Footer />
+  </div>
+);
+
 export default App;
