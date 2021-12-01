@@ -2,17 +2,28 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 .disflex {
   display: flex;
 }
 
+.main-calc {
+  justify-content: space-between;
+  padding: 5% 8%;
+}
+
+.calc-text {
+  font-size: 22px;
+  font-weight: bold;
+}
+
 .calculator {
   flex-direction: column;
-  width: 25%;
+  width: 30%;
+  margin-right: 20%;
   height: 100%;
-  margin: 7% auto;
   border: 1px solid;
   font-size: 20px;
 }
