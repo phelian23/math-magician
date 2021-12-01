@@ -1,0 +1,22 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 5%;
+}
+
+.list {
+  list-style-type: none;
+  margin-right: 10%;
+}
+
+.listItem {
+  display: inline;
+}
+
+.listLink {
+  text-decoration: none;
+  margin: 0 3%;
+  padding: 1% 4%;
+  border-right: 1px solid black;
+}
