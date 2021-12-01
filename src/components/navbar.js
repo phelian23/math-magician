@@ -7,13 +7,13 @@ const Navbar = () => (
     <h1>Math Magicians</h1>
     <ul className={styles.list}>
       <li className={styles.listItem}>
-        <Link to="/" className={styles.listLink}>Home</Link>
+        <Link to="/math-magician/" className={styles.listLink}>Home</Link>
       </li>
       <li className={styles.listItem}>
-        <Link to="/calculator" className={styles.listLink}>Calculator</Link>
+        <Link to="/math-magician/calculator" className={styles.listLink}>Calculator</Link>
       </li>
       <li className={styles.listItem}>
-        <Link to="quotes" className={styles.listLink}>Quote</Link>
+        <Link to="/math-magician/quotes" className={styles.listLink}>Quote</Link>
       </li>
     </ul>
   </header>
