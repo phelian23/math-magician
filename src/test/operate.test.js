@@ -7,6 +7,9 @@ describe('Test operate function', () => {
   test('divide by 0', () => {
     expect(operate('7', '0', '÷')).toBe("Can't divide by 0.");
   });
+  test('modulus by 0', () => {
+    expect(operate('7', '0', '%')).toBe("Can't do modulus 0.");
+  });
   test('subtract 4 from 20', () => {
     expect(operate('20', '4', '-')).toBe('16');
   });
