@@ -1,0 +1,244 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshots Calculator 1`] = `
+<div
+  className="main-calc disflex"
+>
+  <p
+    className="calc-text"
+  >
+    Let's do some Math!
+  </p>
+  <div
+    className="calculator disflex"
+  >
+    <div
+      className="solution"
+    >
+      0
+    </div>
+    <div
+      className="buttons disflex"
+    >
+      <div
+        className="grey-buttons"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          AC
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          +/-
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          %
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          7
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          8
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          9
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          4
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          5
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          6
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          1
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          2
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          3
+        </button>
+        <button
+          className="double-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          0
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          .
+        </button>
+      </div>
+      <div
+        className="orange-buttons disflex"
+      >
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          ÷
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          x
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          -
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          +
+        </button>
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          =
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snapshots Footer 1`] = `
+<section
+  className="footer"
+>
+  <p>
+    Math Magicians
+  </p>
+  <p>
+    © Copyright 2021
+    <br />
+     
+    Created by Femi Awoyemi
+  </p>
+</section>
+`;
+
+exports[`Snapshots Homepage 1`] = `
+<header
+  className="header"
+>
+  <h3>
+    Welcome to our page!
+  </h3>
+  <p
+    className="text"
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ullam modi magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae? magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae? magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae?
+  </p>
+  <p
+    className="text"
+  >
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium ullam modi magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae? magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae? magni odit distinctio facilis tempora illum commodi cum quasi ab ratione fuga inventore vero, consequuntur, consectetur eaque voluptatum vitae?
+  </p>
+</header>
+`;
+
+exports[`Snapshots Navbar 1`] = `
+<header
+  className="navbar"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <ul
+    className="list"
+  >
+    <li
+      className="listItem"
+    >
+      <a
+        className="listLink"
+        href="/math-magician/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li
+      className="listItem"
+    >
+      <a
+        className="listLink"
+        href="/math-magician/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+    </li>
+    <li
+      className="listItem"
+    >
+      <a
+        className="listLink"
+        href="/math-magician/quotes"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </li>
+  </ul>
+</header>
+`;
+
+exports[`Snapshots Quotes Page 1`] = `
+<section
+  className="quoteCont"
+>
+  <p
+    className="quote"
+  >
+    Mathematics is not about numbers, equations, computations or algorithms: it is about understanding - William Paul Thurston
+  </p>
+</section>
+`;
